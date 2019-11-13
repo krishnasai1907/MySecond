@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64708" started-at="2019-11-12T16:29:25Z" finished-at="2019-11-12T16:30:30Z">
+  <suite name="Suite" duration-ms="29198" started-at="2019-11-13T15:22:35Z" finished-at="2019-11-13T15:23:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="64708" started-at="2019-11-12T16:29:25Z" finished-at="2019-11-12T16:30:30Z">
+    <test name="Test" duration-ms="29198" started-at="2019-11-13T15:22:35Z" finished-at="2019-11-13T15:23:05Z">
       <class name="com.project.App">
-        <test-method status="FAIL" signature="Mytest()[pri:0, instance:com.project.App@29774679]" name="Mytest" duration-ms="64508" started-at="2019-11-12T16:29:25Z" finished-at="2019-11-12T16:30:30Z">
+        <test-method status="FAIL" signature="Mytest()[pri:0, instance:com.project.App@29774679]" name="Mytest" duration-ms="29077" started-at="2019-11-13T15:22:35Z" finished-at="2019-11-13T15:23:05Z">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=78.0.3904.97)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-LJILQEDE', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+System info: host: 'LAPTOP-LJILQEDE', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f15af514ace337304aa8b492e3b84906]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4290d859abeaf04387d20102a89abd5e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=78.0.3904.97)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-LJILQEDE', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+System info: host: 'LAPTOP-LJILQEDE', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51556}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f15af514ace337304aa8b492e3b84906
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4290d859abeaf04387d20102a89abd5e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
